@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#ee6e73"
+        android:text="This is TextView"
+        />
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type something here"
+        android:maxLines="2"
+        />
+
+    <Button
+        android:id="@+id/button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Text"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/sg"
+        />
+
+    <Button
+        android:id="@+id/button_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Img"
+        android:textAllCaps="false"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/button_pb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Progress Bar"
+        android:textAllCaps="false"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        />
+
+    <Button
+        android:id="@+id/button_pb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Progress Bar Horizontal"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/button_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Dialog"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/button_progress_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Progress Dialog"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>

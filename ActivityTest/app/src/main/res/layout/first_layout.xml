@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        />
+
+    <Button
+        android:id="@+id/button_1_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1.5"
+        />
+
+    <Button
+        android:id="@+id/button_1_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Browser"
+        />
+
+    <Button
+        android:id="@+id/button_1_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Phone"
+        />
+
+    <Button
+        android:id="@+id/button_1_20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transfer Data"
+        />
+
+    <Button
+        android:id="@+id/button_1_25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return Data"
+        />
+
+    <Button
+        android:id="@+id/button_1_30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Standard Launch Mod"
+        />
+
+</LinearLayout>
